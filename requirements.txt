@@ -1,0 +1,6 @@
+pyrogram==1.4.16
+telethon
+tgcrytpo
+pymongo
+cpython
+pyromod

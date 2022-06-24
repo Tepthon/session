@@ -1,0 +1,43 @@
+{
+  "name": "Flux",
+  "description": "Flux",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Adobe_InDesign_CC_icon.svg/788px-Adobe_InDesign_CC_icon.svg.png",
+  "keywords": [
+    "Telegram",
+    "Pyrogram",
+    "InfoBot",
+    "ID"
+  ],
+  "repository": "https://github.com/Tepthon/session",
+  "website": "https://themalware.tk",
+  "success_url": "https://t.me/Tepthon",
+  "env": {
+    "API_ID": {
+      "description": "Get This From my.telegram.org"
+    },
+    "API_HASH": {
+      "description": "Get This From my.telegram.org"
+    },
+    "BOT_TOKEN": {
+      "description": "Get This From @BotFather"
+    },
+    "MONGO_URI": {
+      "description": "Get This From mongodb.com"
+    },
+    "OWNER_ID": {
+      "description": "UserID of Owner And Not Username"
+    },
+    "UPDATES_CHANNEL": {
+      "description": "Username Of Channel With @"
+    }
+  },
+  "buildpacks": [{
+    "url": "heroku/python"
+  }],
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+    }
+  }
+}
